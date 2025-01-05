@@ -18,6 +18,7 @@ if (args.length === 0) {
 var inforParams = {
   "--version": "@clasictemplates! v1.0.8",
   "--help": "Este es un mensaje de ayuda",
+  "create": "crea un archivo o componente",
   "react-env": "Creando archivo de configuración para React...",
   "html-env": "Creando archivo de configuración para HTML...",
 };

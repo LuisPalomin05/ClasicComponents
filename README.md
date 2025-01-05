@@ -32,10 +32,22 @@ npm i clasiccomponents
 
 ClasicComponents está diseñado para ser utilizado desde la línea de comandos. Aquí tienes algunos ejemplos de uso:
 
+## Comandos basicos
+
+Para conocer la version de @ClasicComponents usa:
+```bash
+clasic --version
+```
+Conoce la guia de ayuda usando:
+```bash
+clasic --help
+```
+
+
 ### Crear un componente React
 
 ```bash
-clasiccomponents create-component NombreComponente
+clasiccomponents create NombreComponente
 ```
 
 Este comando generará una carpeta llamada `NombreComponente` que incluirá:

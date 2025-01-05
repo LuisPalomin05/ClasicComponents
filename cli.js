@@ -3,10 +3,9 @@
 const createHtmlenv = require("./create/html/createhtmlenv");
 const createReactenv = require("./create/react/createreactenv");
 const kboom = require("./tools/kboom");
-const make = require("./tools/make")
+const make = require("./tools/make");
 const colorCli = require("./tools/colorcli");
-const  serverclasic = require("./tools/server");
-
+const serverclasic = require("./tools/server");
 
 const args = process.argv.slice(2);
 
@@ -18,7 +17,7 @@ if (args.length === 0) {
 var inforParams = {
   "--version": "@clasictemplates! v1.0.8",
   "--help": "Este es un mensaje de ayuda",
-  "create": "crea un archivo o componente",
+  create: "crea un archivo o componente",
   "react-env": "Creando archivo de configuración para React...",
   "html-env": "Creando archivo de configuración para HTML...",
 };
@@ -34,29 +33,29 @@ interprete(params1);
 function interprete(params) {
   switch (params) {
     case "--version":
-        colorCli(inforParams["--version"], "yellow");
+      colorCli(inforParams["--version"], "yellow");
       break;
     case "--help":
-        colorCli(inforParams["--help"], "blue");
-      
+      colorCli(inforParams["--help"], "blue");
+
       break;
     case "server":
-        if (params2 == "init") {
-            serverclasic();
-        }
+      if (params2 == "init") {
+        serverclasic();
+      }
     case "make":
-        make(params2);
+      make(params2);
     case "react-env":
-        colorCli(inforParams["react-env"], "blue");
+      colorCli(inforParams["react-env"], "blue");
       try {
         createReactenv();
       } catch (err) {
-        colorCli(err, 31); 
+        colorCli(err, 31);
       }
       break;
 
     case "html-env":
-        colorCli(inforParams["html-env"], "blue");
+      colorCli(inforParams["html-env"], "blue");
       try {
         createHtmlenv();
       } catch (err) {
@@ -64,8 +63,7 @@ function interprete(params) {
       }
       break;
     default:
-        colorCli("No se ha especificado parametro o una opción valida", "red");
+      colorCli("No se ha especificado parametro o una opción valida", "red");
       break;
   }
 }
-

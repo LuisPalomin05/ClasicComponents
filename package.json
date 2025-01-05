@@ -1,0 +1,25 @@
+{
+  "name": "clasictemplates",
+  "version": "1.0.9",
+  "description": "Sistema de carpetas y manejador de documentos para react.",
+  "main": "index.js",
+  "bin": {
+    "clasic": "./cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisPalomin05/ClasicTemplate#readme"
+  },
+  "author": "luis alfredo palomino medina",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/LuisPalomin05/ClasicTemplate.git"
+  },
+  "homepage": "https://github.com/LuisPalomin05/ClasicTemplate#readme",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

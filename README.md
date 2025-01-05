@@ -47,7 +47,7 @@ clasic --help
 ### Crear un componente React
 
 ```bash
-clasiccomponents create NombreComponente
+clasic create NombreComponente
 ```
 
 Este comando generará una carpeta llamada `NombreComponente` que incluirá:
@@ -58,7 +58,7 @@ Este comando generará una carpeta llamada `NombreComponente` que incluirá:
 ### Crear un proyecto base HTML
 
 ```bash
-clasiccomponents html-env
+clasic html-env
 ```
 
 Esto creará una estructura inicial para un proyecto HTML, incluyendo un archivo `index.html`.
@@ -66,7 +66,7 @@ Esto creará una estructura inicial para un proyecto HTML, incluyendo un archivo
 ### Crear un proyecto base para un proyecto React
 
 ```bash
-clasiccomponents react-env ProyectoReact
+clasic react-env ProyectoReact
 ```
 
 Este comando generará la estructura base para un proyecto React.

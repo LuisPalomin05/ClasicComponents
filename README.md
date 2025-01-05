@@ -18,10 +18,13 @@ ClasicComponents es un paquete de npm diseñado para agilizar la creación de ar
 Para instalar ClasicComponents, ejecuta el siguiente comando en tu terminal:
 
 ```bash
-npm install -g clasiccomponents
-
 npm i clasiccomponents
 ```
+tambien puedes usar
+```bash
+npm i clasiccomponents
+```
+
 
 ---
 

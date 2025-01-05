@@ -110,4 +110,4 @@ Creado y mantenido por **Luis Palomino**.
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme:
 
 - **GitHub**: [LuisPalomin05](https://github.com/LuisPalomin05)
-- **Email**: tuemail@example.com
+
